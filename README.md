@@ -12,13 +12,13 @@ The project consists of three pages:
 - PokedexPage > The pokedex page allows users to discover pokemons.
 - PokemonDetailPage > The pokemon detail page allows users to access detailed information about a Pokemon.
 
-<img src="./pokemon-project/src/assets/for-readme/HomePage.PNG" width="30%" alt="HomePage">
-<img src="./pokemon-project/src/assets/for-readme/PokedexPage.PNG" width="30%" alt="PokedexPage">
-<img src="./pokemon-project/src/assets/for-readme/PokemonDetailPage.PNG" width="30%" alt="PokemonDetailPage">
+<img src="./pokemon-project/src/assets/for-readme/HomePage.PNG" width="70%" alt="HomePage">
+<img src="./pokemon-project/src/assets/for-readme/PokedexPage.PNG" width="70%" alt="PokedexPage">
+<img src="./pokemon-project/src/assets/for-readme/PokemonDetailPage.PNG" width="70%" alt="PokemonDetailPage">
 
 ## Color Palette
 
-<img src="./pokemon-project/src/assets/for-readme/ColorPalette.PNG" width="60%" alt="ColorPalette">
+<img src="./pokemon-project/src/assets/for-readme/ColorPalette.PNG" width="90%" alt="ColorPalette">
 
 ## Code structure
 

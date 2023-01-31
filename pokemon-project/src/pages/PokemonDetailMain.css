@@ -100,3 +100,50 @@
     background-color: #b88701;
     cursor: pointer;
 }
+
+@media (max-width: 880px){
+    .pokemon-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pokemon-profile {
+        width: 470px;
+    }
+
+    .flavorText {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 550px){
+    .pokemon-container img {
+        width: 300px;
+    }
+
+    .pokemon-profile {
+        width: 300px;
+    }
+}
+
+@media (max-width: 400px){
+    .Header img {
+        width: 250px;
+    }
+
+    .pokemon-container img {
+        width: 250px;
+    }
+
+    .pokemon-profile {
+        width: 250px;
+    }
+
+    .container-part{
+        padding: 0;
+    }
+
+    .logos-list{
+        flex-wrap: wrap;
+    }
+}

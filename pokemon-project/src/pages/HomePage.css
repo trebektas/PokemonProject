@@ -124,3 +124,28 @@
         align-items: center;
     }
 }
+
+@media (max-width: 550px){
+    .Nav-Links{
+        flex-direction: column;
+        
+    }
+
+    .Nav-Links a{
+        border-left: 0;
+        border-top: 2px solid white;
+    }
+
+    .NavBar {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    #home-link {
+        margin: 5px;
+    }
+
+    #pokedex-link {
+        margin: 5px;
+    }
+}
