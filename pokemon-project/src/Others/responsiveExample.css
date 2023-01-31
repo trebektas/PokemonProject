@@ -1,0 +1,17 @@
+@media (min-width: 600px){
+    .products--item {
+        width: calc(50% - 16px);
+    }
+}
+
+@media (min-width: 1000px){
+    .products--item {
+        width: calc(33% - 16px);
+    }
+}
+
+@media (min-width: 1600px){
+    .products--item {
+        width: calc(25% - 16px);
+    }
+}

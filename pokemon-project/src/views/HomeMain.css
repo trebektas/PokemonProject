@@ -1,0 +1,126 @@
+.HomeMain{
+    margin: 40px 40px;
+}
+
+.AboutNavBar {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content:space-between;
+    background-color: #FFE109;
+    border-radius: 5px;
+}
+
+.AboutNavBar img{
+    max-width: 220px;
+    margin: 20px 20px;
+}
+
+.Nav-Links{
+    display: flex;
+    align-items: center;
+}
+
+.Nav-Links a {
+    list-style: none;
+    text-decoration: none;
+    padding: 20px 36px;
+    font-weight: 600;
+    border-left: 1px solid #ffffff ;
+    font-size: 17px;
+    max-width: 150px;
+}
+
+.AboutNavBar a:hover {
+    background-image: url("../assets/nav-tail.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center center;
+    text-shadow: 0.3px 0.5px 0px #0C0855;
+}
+
+.About{
+    display: flex;
+    justify-content: flex-end;
+    background-image: url("../assets/about-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: left center;
+    margin-bottom: 20px;
+}
+
+.About p {
+    width: 50%;
+    padding: 0 10px;
+    background-color: #ffffff;
+}
+
+.About p::first-letter{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.History{
+    margin-bottom: 20px;
+}
+
+.History h2{
+    margin-bottom: 5px;
+}
+
+
+.history-container {
+    display: flex;
+    align-items:flex-start;
+}
+
+.history-container p {
+    padding-right: 20px;
+}
+
+.Name{
+    margin-bottom: 20px;
+}
+
+.Name h2 {
+    margin-bottom: 5px;
+}
+
+
+.Concept h4 {
+    margin: 15px 0 5px;
+}
+
+@media (max-width: 1079px){
+    .About{
+        background-image:none;
+        justify-content: flex-start;
+    }
+
+    .About p{
+        width: auto;
+    }
+}
+
+@media (max-width: 849px){
+    .AboutNavBar{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .history-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .history-container img {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 769px){
+    .Header{
+        flex-direction: column;
+        align-items: center;
+    }
+}
