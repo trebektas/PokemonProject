@@ -2,9 +2,18 @@
     margin: 0px 40px 40px;
 }
 
+.error-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+    color: red;
+    font-size: 2em;
+}
+
 .pokemonName {
     text-align: center;
-    margin: 40px 0;
+    margin: 35px 0;
 }
 
 .pokemonName::first-letter {
@@ -71,4 +80,23 @@
 
 .pokemon-profile .types{
     margin: 0;
+}
+
+.ExploreButton-Container {
+    margin: 35px auto;
+    text-align: center;
+}
+
+.ExploreMorePokemonButton{
+    border-radius: 5px;
+    background-color: #ce9803;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size:larger;
+}
+
+.ExploreMorePokemonButton:hover {
+    background-color: #b88701;
+    cursor: pointer;
 }

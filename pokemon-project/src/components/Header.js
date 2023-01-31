@@ -1,6 +1,7 @@
 import "./Header.css";
 import pokemonLogo from "../assets/pokemonLogo.svg";
-import NavBar from "../components/NavBar";
+import NavBar from "./NavBar";
+
 function Header() {
   return (
     <div className="Header">

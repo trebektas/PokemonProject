@@ -1,13 +1,23 @@
-import Header from "../views/Header";
-import PokedexMain from "../views/PokedexMain";
-import Footer from "../views/Footer";
+import "./PokedexMain.css";
+import LoadMorePokemonButton from "../components/LoadMorePokemonButton";
+import PokemonList from "../components/PokemonList";
+import { usePokemonsContext } from "../context/PokemonsContext";
 
 function PokedexPage() {
+  const { pokedexErrorMessage } = usePokemonsContext();
+
   return (
-    <div className="PokedexPage">
-      <Header />
-      <PokedexMain />
-      <Footer />
+    <div className="PokedexMain">
+      <>
+        {pokedexErrorMessage ? (
+          <PokemonList />
+        ) : (
+          <>
+            <PokemonList />
+            <LoadMorePokemonButton />
+          </>
+        )}
+      </>
     </div>
   );
 }

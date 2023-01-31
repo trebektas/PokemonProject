@@ -11,7 +11,6 @@ function Footer() {
         <p>Copyright © 2023 ebektas.</p>
         <p>All Rights Reserved</p>
       </div>
-
       <div className="footer-logos">
         <ul className="logos-list">
           <li>

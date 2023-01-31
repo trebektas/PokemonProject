@@ -10,6 +10,8 @@ export const PokemonsProvider = ({ children }) => {
   const [pokemonList, setPokemonList] = useState([]);
   const [nextUrl, setNextUrl] = useState();
   const [loadButtonIsVisible, setLoadButtonIsVisible] = useState(true);
+  const [detailErrorMessage, setDetailErrorMessage] = useState();
+  const [pokedexErrorMessage, setPokedexErrorMessage] = useState();
 
   function addPokemonToList(obj) {
     if (pokemonList.length > 0) {
@@ -17,6 +19,14 @@ export const PokemonsProvider = ({ children }) => {
     } else {
       setPokemonList(obj);
     }
+  }
+
+  function addDetailErrorMessage(err) {
+    setDetailErrorMessage(err);
+  }
+
+  function addPokedexErrorMessage(error) {
+    setPokedexErrorMessage(error);
   }
 
   function resetPokemonList() {
@@ -45,6 +55,7 @@ export const PokemonsProvider = ({ children }) => {
       console.log(error);
       resetPokemonList();
       resetNextUrl();
+      addPokedexErrorMessage(error);
     }
   };
 
@@ -59,6 +70,10 @@ export const PokemonsProvider = ({ children }) => {
         addNextUrl,
         resetNextUrl,
         loadButtonIsVisible,
+        addDetailErrorMessage,
+        detailErrorMessage,
+        addPokedexErrorMessage,
+        pokedexErrorMessage,
       }}
     >
       {children}

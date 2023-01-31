@@ -2,6 +2,7 @@ import { usePokemonsContext } from "../context/PokemonsContext";
 
 function LoadMorePokemonButton() {
   const { getPokemons, nextUrl, loadButtonIsVisible } = usePokemonsContext();
+
   return (
     <div
       className={`LoadButton-Container ${

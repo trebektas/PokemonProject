@@ -2,39 +2,20 @@
     margin: 0 40px;
 }
 
-.SearchBar{
-    margin-top: 20px;
+.loading-container{
+    padding: 25vh 0;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.SearhBar-Container{
-    display: flex;
+.loading-p{
+    font-size: 2em;
+    margin-bottom: 20px;
 }
 
-input[type=text]{
-    border-radius:5px;
-    padding: 3px 5px;
-    border-color: #0C0855;
-}
-
-.SearchBar button{
-    background-color: #0C0855;
-    margin-left: 15px;
-    border-radius:5px;
-    border-color: #0C0855;
-    cursor: pointer;
-}
-
-.SearchBar button img{
-    padding: 5px;
-}
-
-.SearchBar p{
-    margin-top: 10px;
-    font-style: italic;
-    color: grey;
+.loading-img {
+    width: 70px;
 }
 
 .PokemonList{
