@@ -1,4 +1,4 @@
-# PokemonProject
+# React Project - Pokemon App
 
 ## Demo
 
